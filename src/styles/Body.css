@@ -1,0 +1,67 @@
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  font-family: "Baloo Bhaina 2";
+  color: #6e6d6d;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  height: 100vh;
+}
+
+.contact-text {
+  font-family: "Baloo Bhaina 2";
+  color: #6e6d6d;
+}
+
+.portfolio {
+  column-count: 2;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+@media (max-width:1000px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headshot {
+    height: 200px;
+    max-width: fit-content;
+  }
+
+  .aboutme {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+  }
+
+  .proj-image {
+    width: 10rem;
+  }
+
+  .cv-image{
+    height: 300px;
+    max-width: fit-content;
+  }
+
+  .skill-list{
+    padding: 0px;
+  }
+
+}

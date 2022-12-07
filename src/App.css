@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  }
+
+  .main-content{
+    background-color: rgb(83, 83, 83);
+    height: 70vh;
+  }
+
+*{
+  color: aliceblue;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+     }
+
+
+
+
