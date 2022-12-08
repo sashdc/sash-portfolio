@@ -1,34 +1,54 @@
-header {
-  background: #6e6d6d;
-  /* height: 100px; */
-  filter: drop-shadow(0 -1mm 1mm rgb(78, 78, 78));
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
-
-.heading {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  color: white;
-  font-family: "Poller One";
-  filter: drop-shadow(0 -1mm 2mm rgb(97, 97, 97));
+html {
+font-family: "Ubuntu";
+font-size: 15px;
+scroll-behavior: smooth;
+background-color: #42523f;
 }
-
-.nav-item{
-  font-family: "Poller One";
-}
-.nav-item:hover{
-    filter: drop-shadow(0 0mm 1mm rgb(136, 136, 136));
-}
-
-a:link, a:visited, a:hover, a:active {
-  text-decoration: none;
+section {
+height: 100vh;
+width: 100%;
+background-color: #7e8081;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
 }
 
-@media (max-width:640px) {
-  
-.heading {
-  padding-top: 15px;
-  padding-bottom: 20px;
+nav {
+position: sticky;
+top: 0;
+/* background-color: #eef0f1; */
+/* border-radius:0 0 20px 20px; */
 }
+nav .container {
+width: 90%;
+max-width: 1000px;
+margin: 0 auto;
+text-align: center;
+padding: 10px;
+}
+nav .container ul li {
+display: inline-block;
+border-radius:5px;
+}
+nav .container ul li a {
+display: inline-block;
+text-decoration: none;
+padding: 10px 20px;
+color: black;
+}
+nav .container ul li.active {
+background-color: #3b49df;
+border-radius:30px;
+transition: 0.3s;
+}
+nav .container ul li.active a {
+color: #ffffff;
 }

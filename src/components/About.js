@@ -8,7 +8,7 @@ export default function Header() {
     <div class="section aboutme" data-anchor="aboutme">
      
       <div class='d-flex h-100 w-75 m-auto mt-5 animate__animated animate__fadeIn'>
-      <img src={headshot} class = 'rounded headshot m-4 shadow ' alt="headshot" height="240px"/>
+      
       <div className='aboutme'>
       <h1 className='greeting text-start'>Hi! I'm Saharsh! (but you can call me sash)</h1>
       <p>
@@ -25,8 +25,9 @@ export default function Header() {
       </p>
       <p>Ta!</p>
       </div>
+      <img src={headshot} class = 'rounded headshot m-4 shadow ' alt="headshot" height="240px"/>
     </div>
-      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+      {/* <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i> */}
     </div>
   );
 }

@@ -6,7 +6,7 @@
 // import Contact from './pages/Contact';
 import Header from './Header';
 import About from './About';
-import SideNav from './SideNav';
+// import SideNav from './SideNav';
 import Portfolio from './Portfolio';
 // import Body from './Body'
 import Footer from './Footer';
@@ -16,7 +16,7 @@ export default function Main() {
   return (
     <div >
       <Header />
-      <SideNav />
+      {/* <SideNav /> */}
       <div className='main-content'>
       <About/>
       <Portfolio/>

@@ -11,6 +11,7 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 90px;
   }
   
   .middle {
@@ -42,7 +43,15 @@
     margin: 12px;
   }
 
-  .overlaytext{
-    margin: 30px;
-    font-size: large;
-  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #081D5B;
+    border-radius: 10%;}

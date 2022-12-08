@@ -10,28 +10,20 @@ export default function Footer() {
     <div class="container">
         <div class="row">
             <div class="col-md-5">
-                <h5><i class="fa fa-road"></i> ACME CO INC.</h5>
+                <h5><i class="fa fa-road"></i> Sash DC Web Development</h5>
                 <div class="row">
                     <div class="col-6">
                         <ul class="list-unstyled">
-                            <li><a href="">Product</a></li>
-                            <li><a href="">Benefits</a></li>
-                            <li><a href="">Partners</a></li>
-                            <li><a href="">Team</a></li>
+                            <li><a href="">WebDev Portfolio</a></li>
+                            <li><a href="">Skills</a></li>
+                            <li><a href="">Photography</a></li>
+                            <li><a href="">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="col-6">
-                        <ul class="list-unstyled">
-                            <li><a href="">Documentation</a></li>
-                            <li><a href="">Support</a></li>
-                            <li><a href="">Legal Terms</a></li>
-                            <li><a href="">About</a></li>
-                        </ul>
-                    </div>
+                    
                 </div>
                 <ul class="nav">
-                    <li class="nav-item"><a href="www.facebook.com" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
-                    <li class="nav-item"><a href="www.facebook.com" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="www.facebook.com" class="nav-link pl-0"><i class="fa fa-stack-overflow fa-lg"></i></a></li>
                     <li class="nav-item"><a href="www.facebook.com" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
                     <li class="nav-item"><a href="www.facebook.com" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
                 </ul>
