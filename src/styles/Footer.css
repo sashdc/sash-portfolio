@@ -1,8 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
-
-body {
-  font-family: 'Alegreya Sans', sans-serif;
-}
 
 /* Sticky footer position and size
 -------------------------------------------------- */
@@ -18,7 +13,7 @@ body {
 
 .footer {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   width: 100%;
   /* Set the fixed height of the footer here */
   /* height: 300px; */

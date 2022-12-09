@@ -5,9 +5,9 @@ import logoblack from "../assets/images/iconwhite.png";
 
 export default function Header() {
   return (
-    <header className="heading">
+    <header className="">
       <nav className="navbar ">
-          <a className="navbar-brand m-3" href="#">
+          <a className="navbar-brand m-3 m-auto" href="#">
             <img
               src={logoblack}
               alt="Logo"
@@ -18,7 +18,7 @@ export default function Header() {
           
         <div className="container">
             <ul  className="animate__animated animate__fadeInDown">
-                <li className="home "><a href="#home">Home</a></li>
+                {/* <li className="home "><a href="#home">Home</a></li> */}
                 <li className="about"><a href="#about">About</a></li>
                 <li className="skills"><a href="#skills">Skills</a></li>
                 <li className="portf"><a href="#portfolio">Portfolio</a></li>

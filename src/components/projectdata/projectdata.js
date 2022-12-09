@@ -52,7 +52,7 @@ export const projectData = [
   {
     name: "The Weather Station",
     description:
-      "A weather forecast app that provides the user with 5 day forecasts of any location they search for using the OpenWeatherMapAPI. ",
+      "A weather forecast app that provides the user with 5 day forecasts of any location using the OpenWeatherMapAPI. ",
     img: "./weatherdashboard.jpg",
     github: "https://github.com/sashdc/the-weather-report",
     deployment: "https://sashdc.github.io/the-weather-report/",

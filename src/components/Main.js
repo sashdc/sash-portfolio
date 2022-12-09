@@ -25,7 +25,7 @@ export default function Main() {
       <Skills/>
       <Portfolio/>
       <Contact/>
-      {/* <Footer/> */}
+      <Footer/>
       </div>
     </div>
   );
