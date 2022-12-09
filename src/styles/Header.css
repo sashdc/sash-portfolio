@@ -24,7 +24,9 @@ text-transform: uppercase;
 nav {
 position: sticky;
 top: 0;
-/* background-color: #eef0f1; */
+background-color:#d8d8d8;
+font-size: 25px;
+
 /* border-radius:0 0 20px 20px; */
 }
 nav .container {
@@ -36,7 +38,8 @@ padding: 10px;
 }
 nav .container ul li {
 display: inline-block;
-border-radius:5px;
+border-radius:0px;
+
 }
 nav .container ul li a {
 display: inline-block;
@@ -45,7 +48,7 @@ padding: 10px 20px;
 color: black;
 }
 nav .container ul li.active {
-background-color: #3b49df;
+background-color: #5f1575;
 border-radius:30px;
 transition: 0.3s;
 }

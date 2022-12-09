@@ -1,4 +1,4 @@
-// import React, { useState } from 'react';
+import React from 'react';
 // import NavTabs from './NavTabs';
 // import Resume from './pages/Resume';
 // import About from './pages/About';
@@ -6,6 +6,8 @@
 // import Contact from './pages/Contact';
 import Header from './Header';
 import About from './About';
+import Skills from './Skills';
+
 // import SideNav from './SideNav';
 import Portfolio from './Portfolio';
 // import Body from './Body'
@@ -19,9 +21,10 @@ export default function Main() {
       {/* <SideNav /> */}
       <div className='main-content'>
       <About/>
+      <Skills/>
       <Portfolio/>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

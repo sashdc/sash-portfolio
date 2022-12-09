@@ -5,7 +5,7 @@ const {projectData} = require('./projectdata/projectdata')
 
 export default function Header() {
   return (
-    <div class="    w-100 m-auto animate__animated animate__fadeIn">
+    <div class="  p-5  w-100 m-auto animate__animated animate__fadeIn">
       <div class=' '>
         <div class="portfolio mb-5">
           {projectData.map((project) => (
