@@ -12,6 +12,7 @@ import Skills from './Skills';
 import Portfolio from './Portfolio';
 // import Body from './Body'
 import Footer from './Footer';
+import Contact from './Contact';
 
 
 export default function Main() {
@@ -23,8 +24,9 @@ export default function Main() {
       <About/>
       <Skills/>
       <Portfolio/>
-      </div>
+      <Contact/>
       {/* <Footer/> */}
+      </div>
     </div>
   );
 }

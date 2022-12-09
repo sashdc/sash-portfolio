@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 * {
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+font-family: "Text me one";
+
 }
+
 html {
 font-family: "Ubuntu";
 font-size: 15px;
@@ -24,8 +26,11 @@ text-transform: uppercase;
 nav {
 position: sticky;
 top: 0;
-background-color:#d8d8d8;
+background-color:#250036;
 font-size: 25px;
+color: white;
+font-family: Oldenburg;
+
 
 /* border-radius:0 0 20px 20px; */
 }
@@ -45,7 +50,7 @@ nav .container ul li a {
 display: inline-block;
 text-decoration: none;
 padding: 10px 20px;
-color: black;
+color: white;
 }
 nav .container ul li.active {
 background-color: #5f1575;

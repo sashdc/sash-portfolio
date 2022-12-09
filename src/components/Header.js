@@ -1,28 +1,28 @@
 import React from "react";
 import "../styles/Header.css";
 import "animate.css";
-import logoblack from "../assets/images/iconblack.png";
+import logoblack from "../assets/images/iconwhite.png";
 
 export default function Header() {
   return (
-    <header class="heading">
-      <nav class="navbar ">
-          <a className="navbar-brand" href="#">
+    <header className="heading">
+      <nav className="navbar ">
+          <a className="navbar-brand m-3" href="#">
             <img
               src={logoblack}
               alt="Logo"
-              width="30"
-              height="30"
-              class="d-inline-block align-text-top"
+              height="70"
+              className="d-inline-block  align-text-top animate__animated animate__fadeInTopLeft"
             />
-            Sash Dc
-          </a>
+       =    </a>
           
-        <div class="container">
-            <ul>
-                <li class="home active"><a href="#home">Home</a></li>
-                <li class="about"><a href="#about">About</a></li>
-                <li class="contact"><a href="#contact">Contact</a></li>
+        <div className="container">
+            <ul  className="animate__animated animate__fadeInDown">
+                <li className="home "><a href="#home">Home</a></li>
+                <li className="about"><a href="#about">About</a></li>
+                <li className="skills"><a href="#skills">Skills</a></li>
+                <li className="portf"><a href="#portfolio">Portfolio</a></li>
+                <li className="contact"><a href="#contact">Contact</a></li>
             </ul>
         </div>
       </nav>
