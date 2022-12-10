@@ -4,12 +4,12 @@ import "animate.css";
 
 export default function Contact() {
   return (
-    <div className=" " >
+    <div className=" text-right" >
       <div
-        className="d-flex profile text-right w-50 m-auto animate__animated animate__fadeInUp "
+        className="d-flex profile w-50 m-auto animate__animated animate__fadeInUp "
         id="contact">
-        <div className="text-right">
-          <h2 className=" text-right">
+        <div >
+          <h2 >
             Get in touch, ask me something, tell me something...
           </h2>
           <ul className="contact list-unstyled  ">
@@ -25,12 +25,12 @@ export default function Contact() {
             </li>
           </ul>
         </div>
-        <img
+        <a href="#about"><img
           src={headshot}
           className="rounded headshot mb-4 shadow "
           alt="headshot"
           height="200px"
-        />
+        /></a>
       </div>
     </div>
   );

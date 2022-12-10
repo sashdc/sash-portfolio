@@ -7,11 +7,11 @@ export default function Header() {
  
     <div class="section aboutme" data-anchor="aboutme">
      
-      <div class='d-flex profile h-100 w-75 m-auto p-5 animate__animated animate__fadeIn' id="about">
-      <img src={headshot} className = 'rounded headshot m-4 shadow ' alt="headshot" height="200px"/>
+      <div class='d-flex profile h-100 w-75 m-auto p-2 animate__animated animate__fadeIn' id="about">
+      <a href="#contact"><img src={headshot} className = 'rounded headshot m-4 shadow ' alt="headshot" height="200px"/></a>
       <div className=''>
 
-      <h1 className='greeting text-start'>Hi! I'm Saharsh! (but you can call me sash)</h1>
+      <h1 className=''>Hi! I'm Saharsh! (but you can call me sash)</h1>
       <p>
         I'm a full stack developer with a background in photography, advertising, and graphic design. I aim to use my years in the visual arts to create webapps that are bold and pleasing to the eye, and a joy to use. 
       </p>

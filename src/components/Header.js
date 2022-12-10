@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="">
       <nav className="navbar ">
-          <a className="navbar-brand m-3 m-auto" href="#">
+          <a className="navbar-brand m-3 m-auto" href="/">
             <img
               src={logoblack}
               alt="Logo"
