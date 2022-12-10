@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className=" text-right" >
       <div
-        className="d-flex profile w-50 m-auto animate__animated animate__fadeInUp "
+        className="d-flex profile contact  w-50 m-auto animate__animated animate__fadeInUp "
         id="contact">
         <div >
           <h2 >
@@ -27,7 +27,7 @@ export default function Contact() {
         </div>
         <a href="#about"><img
           src={headshot}
-          className="rounded headshot mb-4 shadow "
+          className="rounded headshot mx-4 shadow "
           alt="headshot"
           height="200px"
         /></a>
