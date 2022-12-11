@@ -3,7 +3,7 @@ import "animate.css";
 
 export default function Skills() {
   return (
-    <div class="text-center w-50  m-auto animate__animated animate__pulse" id="skills">
+    <div class="text-center w-75  m-auto animate__animated animate__fadeIn" id="skills">
       <h1 className="mb-3">WHAT DO I KNOW? </h1>
             <div className="h5">LANGUAGES & LIBRARIES </div>
             <p>
