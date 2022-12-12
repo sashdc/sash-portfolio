@@ -9,7 +9,7 @@ export default function Portfolio() {
       <div class=' '>
       <h1 className="mb-3">WHAT HAVE I MADE? </h1>
 
-        <div class="portfolio mb-5">
+        <div class="portfolio ">
           {projectData.map((project) => (
             <Project
             name={project.name}
