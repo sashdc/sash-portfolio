@@ -1,14 +1,12 @@
 import React from "react";
-// import github from "../assets/images/github-icon.png";
-// import linkedin from "../assets/images/linkedin-icon.png";
-// import stackoverflow from "../assets/images/stackoverflow-icon.png";
-// import pixelesque from "../assets/images/pixelesque-icon.png";
 import "../styles/Footer.css";
+
+
 export default function Footer() {
   return (
     <footer className="footer">
-    <div className="container-fluid">
-        <div className="row">
+    <div className="container-fluid ">
+        <div className="row m-3">
             <div >
                 <h5><i className="fa fa-bolt"></i> Sash DC Web Development</h5>
                 <div className="row">

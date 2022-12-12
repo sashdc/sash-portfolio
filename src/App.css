@@ -1,5 +1,6 @@
 
 
+
   .main-content{
     background: linear-gradient(#250036, #000003);
   }
@@ -12,13 +13,12 @@
     text-align: right;
   }
 
-*{
-  color: aliceblue;
-  
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-     }
-
+  *{
+    color: aliceblue;
+    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+       }
 
      @media (max-width:1200px) {
       .portfolio {

@@ -12,7 +12,7 @@ export default function Header() {
               src={logoblack}
               alt="Logo"
               height="70"
-              className="d-inline-block  align-text-top animate__animated animate__fadeInTopLeft"
+              className="d-inline-block   animate__animated animate__fadeInTopLeft"
             />
        =    </a>
           

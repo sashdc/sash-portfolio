@@ -1,5 +1,5 @@
 import React from "react";
-import headshot from "../assets/images/headshotpx.jpg";
+import headshot from "../assets/images/headshot.jpg";
 import "animate.css";
 
 export default function Contact() {

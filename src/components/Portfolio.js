@@ -3,7 +3,7 @@ import "animate.css";
 import Project from "./Project";
 const {projectData} = require('./projectdata/projectdata')
 
-export default function Header() {
+export default function Portfolio() {
   return (
     <div className="  p-5  w-100 text-center m-auto animate__animated animate__fadeIn" id="portfolio">
       <div class=' '>

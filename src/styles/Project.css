@@ -18,7 +18,7 @@
     transition: .25s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -27,6 +27,8 @@
   
   .container:hover .image {
     opacity: 0.1;
+    box-shadow: 1px 1px 10px 10px rgb(224, 158, 255);
+
   }
   
   .container:hover .middle {
