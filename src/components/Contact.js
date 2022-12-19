@@ -1,5 +1,6 @@
 import React from "react";
-import headshot from "../assets/images/headshot.jpg";
+import headshotpx from "../assets/images/headshot.jpg";
+import headshot from "../assets/images/headshotpx.jpg";
 import "animate.css";
 
 export default function Contact() {
@@ -25,12 +26,21 @@ export default function Contact() {
             </li>
           </ul>
         </div>
-        <a href="#about"><img
-          src={headshot}
-          className="rounded headshot mx-4 shadow "
+        <div className="headshots">
+        <a href="#about">
+        <img
+            src={headshot}
+            className="rounded headshot mx-4 shadow "
+            alt="headshot"
+            height="200px"
+          />
+        <img
+          src={headshotpx}
+          className="rounded headshotpx mx-4 shadow "
           alt="headshot"
           height="200px"
         /></a>
+        </div>
       </div>
     </div>
   );

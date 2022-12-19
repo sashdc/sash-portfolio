@@ -13,6 +13,28 @@
     text-align: right;
   }
 
+  .headshots {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+.headshot{
+  position: relative;
+  z-index: 20;
+}
+
+.headshotpx{
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: 0;
+}
+
+  .headshot:hover{
+    opacity: 0;
+    transition: .5s ease;
+  }
+
   *{
     color: aliceblue;
     
@@ -37,11 +59,10 @@
         text-align: center;
         
       }
-      .headshot{
+      .headshot .headshotpx{
         height: 300px;
         width: 300px;
         border-radius:10%;
-        /* margin-top: 0; */
       }
       .contact{
         text-align: center;
