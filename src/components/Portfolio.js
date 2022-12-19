@@ -5,11 +5,11 @@ const {projectData} = require('./projectdata/projectdata')
 
 export default function Portfolio() {
   return (
-    <div className="  p-5  w-100 text-center m-auto animate__animated animate__fadeIn" id="portfolio">
-      <div className=' '>
+    <div className="  my-5  w-100 text-center m-auto animate__animated animate__fadeIn" id="portfolio">
+      <div>
       <h1 className="mb-3">WHAT HAVE I MADE? </h1>
 
-        <div class="portfolio ">
+        <div className="portfolio ">
           {projectData.map((project) => (
             <Project
             name={project.name}

@@ -6,7 +6,10 @@
   }
 
   .portfolio {
-    column-count: 3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto
+
   }
 
   .contact{
@@ -44,13 +47,13 @@
 
      @media (max-width:1200px) {
       .portfolio {
-        column-count: 2;
+        grid-template-columns: auto auto
       }
     }
 
      @media (max-width:1000px) {
       .portfolio {
-        column-count: 1;
+        grid-template-columns: auto 
       }
       .profile{
         display: flex;
