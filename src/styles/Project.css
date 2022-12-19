@@ -27,10 +27,12 @@
     text-align: center;
   }
   
+
   .container:hover .image {
     opacity: 0.1;
+    height: 66%;
+    transition: .25s ease;
     box-shadow: 1px 1px 10px 10px rgb(224, 158, 255);
-
   }
   
   .container:hover .middle {
