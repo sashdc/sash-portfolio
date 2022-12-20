@@ -19,10 +19,10 @@ font-family: Oldenburg;
 }
 
 nav .container {
-width: 90%;
+/* width: 90%; */
 max-width: 1000px;
-margin: 0 auto;
-text-align: center;
+/* margin: 0 auto; */
+/* align-items: center; */
 padding: 10px;
 }
 nav .container ul li {
