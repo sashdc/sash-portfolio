@@ -21,28 +21,37 @@ font-family: Oldenburg;
 
 
 nav .container {
-width: 90%;
-max-width: 1000px;
+/* width: 90%; */
+/* max-width: 1000px; */
 /* margin: 0 auto; */
 align-items: center;
 text-align: center;
 /* padding: 10px; */
 }
+
+ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
 nav .container ul li {
 display: inline-block;
 border-radius:0px;
 }
+
 nav .container ul li a {
 display: inline-block;
 text-decoration: none;
 padding: 10px 20px;
 color: white;
 }
+
 nav .container ul li.active {
 background-color: #5f1575;
 border-radius:30px;
 transition: 0.3s;
 }
+
 nav .container ul li.active a {
 color: #ffffff;
 }

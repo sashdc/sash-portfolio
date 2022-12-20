@@ -30,7 +30,7 @@ export default function Header() {
           <p>
             I'm a full stack developer with a background in photography,
             advertising, and graphic design. I aim to use my years in the visual
-            arts to create webapps that are bold and pleasing to the eye, and a
+            arts to create webapps that are bold, pleasing to the eye, and a
             joy to use.
           </p>
           <p>
