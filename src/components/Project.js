@@ -4,8 +4,8 @@ import "animate.css";
 
 export default function Project(props) {
   return (
-    <div className="container w-100 d-flex justify-content-between align-items-center animate__animated animate__slideInUp">
-      <img src={props.img} alt={props.name} className="image p-3" />
+    <div className="container  d-flex justify-content-between align-items-center animate__animated animate__slideInUp">
+      <img src={props.img} alt={props.name} className="image my-4" />
       <div className="middle">
         <h1 className="overlaytext">{props.name}</h1>
         <a

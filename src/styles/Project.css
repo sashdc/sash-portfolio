@@ -11,9 +11,11 @@
     display: block;
     width: 100%;
     height: auto;
-    transition: .5s ease;
+    transition: 1s ease;
     backface-visibility: hidden;
     border-radius: 90px;
+    box-shadow: 2px 2px 1px 0px rgb(32, 23, 36);
+
   }
   
   .middle {
@@ -30,8 +32,8 @@
 
   .container:hover .image {
     opacity: 0.1;
-    height: 66%;
-    transition: .25s ease;
+    height: 70%;
+    transition: .5s ease;
     box-shadow: 1px 1px 10px 10px rgb(224, 158, 255);
   }
   
@@ -43,15 +45,7 @@
     font-size: 100%;
   }
   
-  .text {
-    background-color: #7b7e7d;
-    border-radius: 60px;
-    color: white;
-    /* font-size: 13px; */
-    padding: 10px 32px;
-    text-decoration: none;
-    margin: 12px;
-  }
+
 
   .overlay {
     position: absolute;
