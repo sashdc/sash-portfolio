@@ -13,7 +13,7 @@ export default function Project(props) {
           href={props.deployment}
           target="_blank"
           rel="noreferrer">
-          <i className="fa fa-2x fa-laptop project-icon"></i>
+          <i className="fa fa-2x fa-laptop project-icon" alt="deployment"></i>
         </a>
         <a className="m-1" href={props.github} target="_blank" rel="noreferrer">
           <i className="fa fa-2x fa-github project-icon" aria-hidden="true"></i>
