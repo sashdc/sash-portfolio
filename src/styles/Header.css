@@ -8,8 +8,8 @@ font-family: "Text me one";
 }
 
 nav {
-position: absolute;
-top: 0;
+/* position: absolute; */
+/* top: 0; */
 background-color:#250036;
 font-size: 25px;
 color: white;
@@ -18,12 +18,15 @@ font-family: Oldenburg;
 /* border-radius:0 0 20px 20px; */
 }
 
+
+
 nav .container {
-/* width: 90%; */
+width: 90%;
 max-width: 1000px;
 /* margin: 0 auto; */
-/* align-items: center; */
-padding: 10px;
+align-items: center;
+text-align: center;
+/* padding: 10px; */
 }
 nav .container ul li {
 display: inline-block;

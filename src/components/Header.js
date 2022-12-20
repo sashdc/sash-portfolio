@@ -16,7 +16,7 @@ export default function Header() {
             />
        =    </a>
           
-        <div className="container">
+        <div className="container ">
             <ul  className="animate__animated animate__fadeInDown">
                 {/* <li className="home "><a href="#home">Home</a></li> */}
                 <li className="about nav-item"><a href="#about">About</a></li>
