@@ -1,7 +1,12 @@
 
+  *{
+    color: aliceblue;
+    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+       }
 
-
-  .main-content{
+.main-content{
     background: linear-gradient(#250036, #000003);
   }
 
@@ -41,12 +46,6 @@
     transition: .5s ease;
   }
 
-  *{
-    color: aliceblue;
-    
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-       }
 
      @media (max-width:1200px) {
       .portfolio {
