@@ -26,19 +26,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    text-align: center;
+    /* text-align: center; */
   }
   
 
   .container:hover .image {
     opacity: 0.1;
-    height: 70%;
     transition: .5s ease;
+    height: 70%;
+    /* align-items: center; */
     box-shadow: 1px 1px 10px 10px rgb(224, 158, 255);
   }
   
   .container:hover .middle {
     opacity: 1;
+    transition: .5s ease;
+
   }
 
   .overlaytext{
@@ -64,16 +67,8 @@
     @media (max-width:1000px) {
       .image{
         border-radius: 50px;
-        height: auto;
-        margin: 2%;
+        /* height: auto; */
+        /* margin: 2%; */
       }
 
- 
-
-      .overlaytext {
-        font-size: 13px;
-        margin: 0px;
-        /* text-decoration: none; */
-        /* margin: 2px; */
-      }
     }

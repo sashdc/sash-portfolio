@@ -4,10 +4,10 @@ import "../styles/Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer ">
     <div className="container-fluid ">
         <div className="row m-3">
-            <div >
+            <div className="footerinfo " >
                 <h5><i className="fa fa-bolt"></i> Sash DC Web Development</h5>
                 <div className="row">
                     <div >
@@ -19,12 +19,11 @@ export default function Footer() {
                     </div>
                     
                 </div>
-                <ul className="nav">
+                <ul className="footnav">
                     <li className="nav-item"><a href="www.facebook.com" target="_blank" rel="noopener noreferrer" className="nav-link "><i className="fa fa-stack-overflow fa-lg"></i></a></li>
                     <li class="nav-item"><a href="https://github.com/sashdc" target="_blank" rel="noopener noreferrer" className="nav-link"><i className="fa fa-github fa-lg"></i></a></li>
                     <li className="nav-item"><a href="https://www.linkedin.com/in/saharsh-cherian" target="_blank" rel="noopener noreferrer"className="nav-link"><i className="fa fa-linkedin fa-lg"></i></a></li>
                 </ul>
-                <br/>
             </div>
             
         </div>

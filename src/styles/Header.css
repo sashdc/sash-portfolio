@@ -8,25 +8,25 @@ font-family: "Text me one";
 }
 
 nav {
-/* position: absolute; */
-/* top: 0; */
 background-color:#250036;
 font-size: 25px;
 color: white;
 font-family: Oldenburg;
-
-/* border-radius:0 0 20px 20px; */
 }
 
 
 
+
 nav .container {
-/* width: 90%; */
-/* max-width: 1000px; */
-/* margin: 0 auto; */
-align-items: center;
-text-align: center;
+/* width: 80%; */
+max-width: 1000px;
+/* margin: 0 auto;  */
+/* align-items: center; */
+/* justify-content: center; */
+ text-align: center;
 /* padding: 10px; */
+/* margin-right: 5px; */
+
 }
 
 ul{
@@ -61,4 +61,6 @@ color: #ffffff;
     font-weight: bold;
     border-bottom: 1px dashed #999;
     border-top: 1px dashed #999;
+    /* box-shadow: 2px 2px 2px 2px black; */
+    /* background-color: #3a2a3f; */
 }

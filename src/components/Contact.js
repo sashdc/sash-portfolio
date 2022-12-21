@@ -26,7 +26,7 @@ export default function Contact() {
             </li>
           </ul>
         </div>
-        <div className="headshots">
+        <div className="headshots mt-2">
         <a href="#about">
         <img
             src={headshot}

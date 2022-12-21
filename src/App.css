@@ -47,22 +47,9 @@
   }
 
 
-     @media (max-width:1200px) {
+     @media (max-width:1145px) {
       .portfolio {
         grid-template-columns: auto auto
-      }
-    }
-
-     @media (max-width:1000px) {
-      .portfolio {
-        grid-template-columns: auto 
-      }
-      .profile{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        
       }
       .headshot .headshotpx{
         height: 300px;
@@ -72,4 +59,18 @@
       .contact{
         text-align: center;
       }
+      .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+              }
+    }
+
+     @media (max-width:1000px) {
+      .portfolio {
+        grid-template-columns: auto 
+      }
+   
+  
     }
