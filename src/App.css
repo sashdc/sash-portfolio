@@ -47,7 +47,7 @@
   }
 
 
-     @media (max-width:1145px) {
+     @media (max-width:1130px) {
       .portfolio {
         grid-template-columns: auto auto
       }
@@ -65,6 +65,7 @@
         align-items: center;
         text-align: center;
               }
+    
     }
 
      @media (max-width:1000px) {

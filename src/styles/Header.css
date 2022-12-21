@@ -14,9 +14,6 @@ color: white;
 font-family: Oldenburg;
 }
 
-
-
-
 nav .container {
 /* width: 80%; */
 max-width: 1000px;
@@ -26,7 +23,6 @@ max-width: 1000px;
  text-align: center;
 /* padding: 10px; */
 /* margin-right: 5px; */
-
 }
 
 ul{
@@ -64,3 +60,16 @@ color: #ffffff;
     /* box-shadow: 2px 2px 2px 2px black; */
     /* background-color: #3a2a3f; */
 }
+
+.navlinks{
+padding: 0;
+margin: 0;
+}
+
+@media (max-width:1130px) {
+    .navlinks{
+        padding: 0;
+        margin: 0 auto;
+        }
+    
+    }

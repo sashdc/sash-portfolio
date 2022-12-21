@@ -49,7 +49,7 @@ footer a:focus {
   border-bottom: 1px dashed #999;
 }
 
-@media (max-width:1145px) {
+@media (max-width:1130px) {
 .footerinfo{
 display: flex;
 flex-direction: column;
