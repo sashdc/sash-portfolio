@@ -16,20 +16,24 @@ export default function Header() {
           />
         </a>
 
-<div className="sticky animate__animated animate__fadeInDown">
+<div className="sticky animate__animated animate__fadeInLeft">
             
-              <a href="#about"><i className="fa fa-regular fa-user" title="About Me"></i></a>
-           
+              <div className="d-flex"><a href="#about"><i className="fa fa-regular fa-user" title="About Me"></i></a><p className="sticky-info">About</p>
+              </div>
             
-              <a href="#skills"><i class="fa fa-solid fa-list" title="Skills and Things I Know"></i></a>
+              <div className="d-flex"> <a href="#skills"><i class="fa fa-solid fa-list" title="Skills and Things I Know"></i></a>
+              <p className="sticky-info">Skills</p>
+            </div>
             
-            
-              <a href="#portfolio"><i className="fa fa-solid fa-briefcase" title="Portfolio of Work"></i></a>
-        
-            
+            <div className="d-flex">
+             <a href="#portfolio"><i className="fa fa-solid fa-briefcase" title="Portfolio of Work"></i></a>
+              <p className="sticky-info">Portfolio</p>
+            </div>
+
+            <div className="d-flex">
               <a href="#contact"><i className="fa fa-solid fa-envelope" title="Contact Me"></i></a>
-         
-       
+              <p className="sticky-info">Contact</p>
+              </div>
 </div>
 
         <div className="container navlinks justify-content-around ">
