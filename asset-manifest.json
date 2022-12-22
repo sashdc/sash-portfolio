@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sash-portfolio/static/css/main.64bdeed3.css",
-    "main.js": "/sash-portfolio/static/js/main.befcfab8.js",
+    "main.css": "/sash-portfolio/static/css/main.4e1e8cbf.css",
+    "main.js": "/sash-portfolio/static/js/main.01a1c4df.js",
     "static/js/787.edec3d5d.chunk.js": "/sash-portfolio/static/js/787.edec3d5d.chunk.js",
     "static/media/headshot.jpg": "/sash-portfolio/static/media/headshot.6c07f9a8207179f7d4f9.jpg",
     "static/media/headshotpx.jpg": "/sash-portfolio/static/media/headshotpx.45d270c25d033ff103e2.jpg",
     "static/media/iconwhite.png": "/sash-portfolio/static/media/iconwhite.9280bb40e9a9a1cd03d4.png",
     "index.html": "/sash-portfolio/index.html",
-    "main.64bdeed3.css.map": "/sash-portfolio/static/css/main.64bdeed3.css.map",
-    "main.befcfab8.js.map": "/sash-portfolio/static/js/main.befcfab8.js.map",
+    "main.4e1e8cbf.css.map": "/sash-portfolio/static/css/main.4e1e8cbf.css.map",
+    "main.01a1c4df.js.map": "/sash-portfolio/static/js/main.01a1c4df.js.map",
     "787.edec3d5d.chunk.js.map": "/sash-portfolio/static/js/787.edec3d5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64bdeed3.css",
-    "static/js/main.befcfab8.js"
+    "static/css/main.4e1e8cbf.css",
+    "static/js/main.01a1c4df.js"
   ]
 }
