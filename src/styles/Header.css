@@ -77,10 +77,12 @@ nav .container ul li.active a {
   background-color: #381e41;
   padding: 10px;
   border-radius: 0px 10px 10px 0px;
-    box-shadow: 2px 2px 2px 2px black;
-
+  box-shadow: 2px 2px 2px 2px black;
 }
 
+.sticky i:hover{
+transform: scale(1.4);
+}
 
 @media (max-width:1130px) {
   .navlinks {
