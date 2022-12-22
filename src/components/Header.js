@@ -5,9 +5,8 @@ import logoblack from "../assets/images/iconwhite.png";
 
 export default function Header() {
   return (
-    <header >
+    <header>
       <nav className="navbar">
-        
         <a className="navbar-brand  m-auto  " href="#portfolio">
           <img
             src={logoblack}
@@ -15,7 +14,23 @@ export default function Header() {
             height="70"
             className="d-inline-block animate__animated animate__fadeInDown"
           />
-         </a>
+        </a>
+
+<div className="sticky animate__animated animate__fadeInDown">
+            
+              <a href="#about"><i className="fa fa-regular fa-user" title="About Me"></i></a>
+           
+            
+              <a href="#skills"><i class="fa fa-solid fa-list" title="Skills and Things I Know"></i></a>
+            
+            
+              <a href="#portfolio"><i className="fa fa-solid fa-briefcase" title="Portfolio of Work"></i></a>
+        
+            
+              <a href="#contact"><i className="fa fa-solid fa-envelope" title="Contact Me"></i></a>
+         
+       
+</div>
 
         <div className="container navlinks justify-content-around ">
           <ul className="animate__animated animate__fadeInDown">

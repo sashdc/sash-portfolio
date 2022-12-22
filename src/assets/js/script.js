@@ -1,18 +1,17 @@
-const sections = document.querySelectorAll("section");
-const navLi = document.querySelectorAll("nav .container ul li");
-window.onscroll = () => {
-  var current = "";
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
 
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-    if (pageYOffset >= sectionTop - 60) {
-      current = section.getAttribute("id"); }
-  });
+// Get the navbar
+var navbar = document.getElementById("navbar");
 
-  navLi.forEach((li) => {
-    li.classList.remove("active");
-    if (li.classList.contains(current)) {
-      li.classList.add("active");
-    }
-  });
-};
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
