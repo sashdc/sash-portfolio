@@ -1,15 +1,22 @@
 import React from "react";
 import headshotpx from "../assets/images/headshotpx.jpg";
 import headshot from "../assets/images/headshot.jpg";
+// import banner1 from "../assets/images/banner1.jpg"
+
 import "animate.css";
 
 export default function Header() {
   return (
-    <div className="section aboutme" data-anchor="aboutme">
+    <div className="section aboutme " data-anchor="aboutme">
+     
+   
+      <h1 className="sectiontitle">Hi! I'm Saharsh! (but you can call me Sash)</h1>
       <div
         className="d-flex profile h-100 w-75 m-auto p-2 animate__animated animate__fadeIn"
         id="about">
+
         <div className="headshots">
+          
           <a  href="#contact">
           <img
             src={headshot}
@@ -26,7 +33,7 @@ export default function Header() {
         </a>
         </div>
         <div className="">
-          <h1 className="">Hi! I'm Saharsh! (but you can call me Sash)</h1>
+        
           <p>
             I'm a full stack developer with a background in photography,
             advertising, and graphic design. I aim to use my years in the visual
@@ -50,6 +57,7 @@ export default function Header() {
         </div>
       </div>
       {/* <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i> */}
+      <div className="parallax parallax1 animate__animated animate__fadeIn ">  </div>
     </div>
   );
 }
