@@ -10,7 +10,7 @@ export default function Header() {
     <div className="section aboutme " data-anchor="aboutme">
      
    
-      <h1 className="sectiontitle">Hi! I'm Saharsh! (but you can call me Sash)</h1>
+
       <div
         className="d-flex profile h-100 w-75 m-auto p-2 animate__animated animate__fadeIn"
         id="about">
@@ -33,7 +33,7 @@ export default function Header() {
         </a>
         </div>
         <div className="">
-        
+              <h1 className="">Hi! I'm Saharsh! (but you can call me Sash)</h1>
           <p>
             I'm a full stack developer with a background in photography,
             advertising, and graphic design. I aim to use my years in the visual
