@@ -95,7 +95,9 @@ transform: scale(1.4);
 }
 
 .sticky:hover .sticky-info{
-display: block;}
+display: block;
+
+}
 
 
 @media (max-width:1130px) {

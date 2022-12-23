@@ -5,10 +5,12 @@ import "animate.css";
 
 export default function Contact() {
   return (
-    <div className=" text-right" >
+    <div className=" section text-right" >
+              <div className="parallax3 parallax animate__animated animate__fadeIn ">  </div>
       <div
         className="d-flex profile contact  w-50 m-auto animate__animated animate__fadeInUp "
         id="contact">
+  
         <div >
           <h2 >
             Get in touch, ask me something, tell me something...
