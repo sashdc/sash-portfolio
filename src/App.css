@@ -1,37 +1,38 @@
+* {
+  color: aliceblue;
 
-  *{
-    color: aliceblue;
-    
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-       }
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
-.main-content{
-    background: linear-gradient(#250036, #000003);
-  }
+.main-content {
+  background: linear-gradient(#250036, #000003);
+}
 
-  .section{
-display: flex;
-flex-direction:column ;
-  }
-  
-  .parallax1 {
-    background-image: url("../public/banner1.jpg");
-  }
-  .parallax2 {
-    background-image: url("../public/banner2.jpg");
-  }
-  .parallax3 {
-    background-image: url("../public/banner3.jpg");
-  }
+.section {
+  display: flex;
+  flex-direction: column;
+}
 
-  .parallax {
+.parallax1 {
+  background-image: url("../public/banner1.jpg");
+}
+
+.parallax2 {
+  background-image: url("../public/banner2.jpg");
+}
+
+.parallax3 {
+  background-image: url("../public/banner3.jpg");
+}
+
+.parallax {
   /* The image used */
   /* Set a specific height */
-  min-height: 450px; 
+  min-height: 450px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position:bottom;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 2px 20px 2px black;
@@ -43,80 +44,94 @@ flex-direction:column ;
 
 
 
-.sectiontitle{
+.sectiontitle {
   /* text-align: center; */
   position: relative;
-  bottom: 0px;}
+  bottom: 0px;
+}
 
-  .portfolio {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    justify-content: center;    
+.portfolio {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
 
-  }
+}
 
-  .contact{
-    text-align: right;
-  }
+.contact {
+  text-align: right;
+}
 
-  .headshots {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-.headshot{
+.headshots {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.headshot {
   position: relative;
   z-index: 20;
   opacity: 1;
   transition: .5s ease;
 }
 
-.headshotpx{
+.headshotpx {
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   z-index: 0;
 }
 
-  .headshot:hover{
-    opacity: 0;
-    transition: .5s ease;
+.headshot:hover {
+  opacity: 0;
+  transition: .5s ease;
+}
+
+
+@media (max-width:1130px) {
+  .portfolio {
+    grid-template-columns: auto auto
+  }
+
+  .headshot .headshotpx {
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .parallax {
+    min-height: 200px;
+    border-radius: 20px;
+    background-position: bottom;
+  }
+
+  .parallax1 {
+    background-image: url("../public/banner1-mobile.jpg");
+  }
+  .parallax2 {
+    background-image: url("../public/banner2-mobile.jpg");
+  }
+  .parallax3 {
+    background-image: url("../public/banner3-mobile.jpg");
+  }
+
+}
+
+@media (max-width:1000px) {
+  .portfolio {
+    grid-template-columns: auto
   }
 
 
-     @media (max-width:1130px) {
-      .portfolio {
-        grid-template-columns: auto auto
-      }
-      .headshot .headshotpx{
-        height: 300px;
-        width: 300px;
-        border-radius:10%;
-      }
-      .contact{
-        text-align: center;
-      }
-      .profile{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-              }
-              .parallax {
-      min-height: 200px; 
-    border-radius: 20px;
-     background-position:bottom;
 }
-.parallax2 {
-background-position: left;}
-    
-    }
-
-     @media (max-width:1000px) {
-      .portfolio {
-        grid-template-columns: auto 
-      }
-   
-  
-    }
