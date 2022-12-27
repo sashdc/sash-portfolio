@@ -6,7 +6,7 @@ import "animate.css";
 export default function Contact() {
   return (
     <div className=" section text-right" >
-              <div className="parallax3 parallax animate__animated animate__fadeIn ">  </div>
+              <div className="parallax3 parallax animate__animated animate__fadeIn "> <h1 className="title p-3 ">CONTACT ME </h1> </div>
       <div
         className="d-flex profile contact  w-50 m-auto animate__animated animate__fadeInUp "
         id="contact">

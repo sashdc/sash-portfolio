@@ -3,8 +3,9 @@ import "animate.css";
 
 export default function Skills() {
   return (
-    <div class="text-center w-75  m-auto animate__animated animate__fadeIn" id="skills">
-      <h1 className="mb-3">WHAT DO I KNOW? </h1>
+    <div class="text-center section   m-auto animate__animated animate__fadeIn" id="skills">
+            <div className="parallax parallax1 animate__animated animate__fadeIn ">     <h1 className="title p-3 m-auto">WHAT DO I KNOW? </h1> </div>
+      {/* <h1 className="mb-3">WHAT DO I KNOW? </h1> */}
             <div className="h5">LANGUAGES & LIBRARIES </div>
             <p>
               JavaScript • MySQL • NoSQL • MongoDB • GraphQL • REST API • Express • ReactJS • NodeJS •
@@ -12,7 +13,7 @@ export default function Skills() {
             </p>
             <div className="h5">
            INDUSTRY PRACTICES AND APPLICATIONS
-            </div>
+            </div>  
             <p>
               Agile Methodology • TDD • Github • Heroku • Insomnia • MongoDBCompass 
             </p>

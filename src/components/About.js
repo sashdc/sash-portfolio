@@ -8,8 +8,7 @@ import "animate.css";
 export default function Header() {
   return (
     <div className="section aboutme " data-anchor="aboutme">
-     
-   
+      
 
       <div
         className="d-flex profile h-100 w-75 m-auto p-2 animate__animated animate__fadeIn"
@@ -57,7 +56,7 @@ export default function Header() {
         </div>
       </div>
       {/* <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i> */}
-      <div className="parallax parallax1 animate__animated animate__fadeIn ">  </div>
+
     </div>
   );
 }
