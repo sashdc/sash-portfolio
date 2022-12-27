@@ -4,8 +4,8 @@ export const projectData = [
     description:
       "A word guessing game that uses a 3rd party API to randomly generate words and clues ",
     img: "./wordplay.jpg",
-    github: "https://github.com/AmyWilford/Word-Play",
-    deployment: "https://amywilford.github.io/Word-Play/",
+    github: "https://github.com/sashdc/Word-Play",
+    deployment: "https://sashdc.github.io/Word-Play/",
     skills: " FrontEnd || 3rd Party APIs",
   },
 
