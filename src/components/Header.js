@@ -18,21 +18,21 @@ export default function Header() {
 
 <div className="sticky animate__animated animate__fadeInLeft">
             
-              <div className="d-flex"><a href="#about"><i className="fa fa-regular fa-user" title="About Me"></i></a><p className="sticky-info">About</p>
+              <div className="d-flex"><a href="#about"><i className="fa fa-regular fa-user" title="About Me"></i><p className="sticky-info">About</p></a>
               </div>
             
-              <div className="d-flex"> <a href="#skills"><i class="fa fa-solid fa-list" title="Skills and Things I Know"></i></a>
-              <p className="sticky-info">Skills</p>
+              <div className="d-flex"> <a href="#skills"><i class="fa fa-solid fa-list" title="Skills and Things I Know"></i>
+              <p className="sticky-info">Skills</p></a>
             </div>
             
             <div className="d-flex">
-             <a href="#portfolio"><i className="fa fa-solid fa-briefcase" title="Portfolio of Work"></i></a>
-              <p className="sticky-info">Portfolio</p>
+             <a href="#portfolio"><i className="fa fa-solid fa-briefcase" title="Portfolio of Work"></i>
+              <p className="sticky-info">Portfolio</p></a>
             </div>
 
             <div className="d-flex">
-              <a href="#contact"><i className="fa fa-solid fa-envelope" title="Contact Me"></i></a>
-              <p className="sticky-info">Contact</p>
+              <a href="#contact"><i className="fa fa-solid fa-envelope" title="Contact Me"></i>
+              <p className="sticky-info">Contact</p></a>
               </div>
 </div>
 

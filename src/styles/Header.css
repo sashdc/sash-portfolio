@@ -80,8 +80,14 @@ nav .container ul li.active a {
   border-radius: 0px 10px 10px 0px;
   box-shadow: 2px 2px 2px 2px black;
   /* align-items: baseline; */
-
 }
+
+.sticky a{
+  text-decoration: none;
+  display: inline-flex;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  }
 
 .sticky i:hover{
 transform: scale(1.4);
