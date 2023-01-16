@@ -1,6 +1,6 @@
 * {
   color: aliceblue;
-
+  font-size: 1.1rem;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -17,8 +17,6 @@
 .title{
   align-items: center;
   background-color:rgba(44, 10, 37, 0.85);
-
-  /* border-radius: 30px; */
   width: 100%;
   position: absolute;
   top: 50%;
@@ -59,6 +57,23 @@
 
 
 
+.icon{
+  filter: grayscale(100%);
+  }
+
+.icon:hover {
+  filter: grayscale(0%);
+}
+
+
+
+.skillname {
+  opacity: 0.05;
+}
+.icon:hover + .skillname {
+  opacity: 1;
+  transition: .5s ease;
+}
 
 
 .portfolio {

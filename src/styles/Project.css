@@ -50,7 +50,13 @@
     font-size: 100%;
   }
   
+  .fa-laptop:hover  {
+    color: #76f571;
+  }
 
+  .fa-github:hover  {
+    color: #ff9c4a;
+  }
 
   .overlay {
     position: absolute;
