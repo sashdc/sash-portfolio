@@ -20,7 +20,7 @@ export default function Footer() {
                     
                 </div>
                 <ul className="footnav">
-                    <li className="nav-item"><a href="www.facebook.com" target="_blank" rel="noopener noreferrer" className="nav-link "><i className="fa fa-stack-overflow fa-lg"></i></a></li>
+                    <li className="nav-item"><a href="https://stackoverflow.com/users/20758760/sashdc" target="_blank" rel="noopener noreferrer" className="nav-link "><i className="fa fa-stack-overflow fa-lg"></i></a></li>
                     <li class="nav-item"><a href="https://github.com/sashdc" target="_blank" rel="noopener noreferrer" className="nav-link"><i className="fa fa-github fa-lg"></i></a></li>
                     <li className="nav-item"><a href="https://www.linkedin.com/in/saharsh-cherian" target="_blank" rel="noopener noreferrer"className="nav-link"><i className="fa fa-linkedin fa-lg"></i></a></li>
                 </ul>
