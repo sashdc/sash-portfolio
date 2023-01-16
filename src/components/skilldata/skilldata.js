@@ -26,7 +26,7 @@ export const skillData = [
   },
   {
     name: "MongoDB",
-    img: ".icons/mongodb.svg",
+    img: "./icons/mongodb.svg",
   },
   {
     name: "MySQL",
