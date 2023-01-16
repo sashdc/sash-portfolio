@@ -14,9 +14,9 @@
   flex-direction: column;
 }
 
-.title{
+.title {
   align-items: center;
-  background-color:rgba(44, 10, 37, 0.85);
+  background-color: rgba(44, 10, 37, 0.85);
   width: 100%;
   position: absolute;
   top: 50%;
@@ -57,21 +57,26 @@
 
 
 
-.icon{
+.icon {
   filter: grayscale(100%);
-  
-  }
+  transition: .5s ease;
+
+}
 
 .icon:hover {
   filter: grayscale(0%);
+  transition: .5s ease;
+
 }
 
 
 
 .skillname {
   opacity: 0.05;
+  transition: .3s ease;
 }
-.icon:hover + .skillname {
+
+.icon:hover+.skillname {
   opacity: 1;
   transition: .5s ease;
 }
@@ -114,6 +119,13 @@
   transition: .5s ease;
 }
 
+.contactlink:hover,
+.contactlink:focus{
+ color: #aaa;
+ text-decoration: none;
+ /* border-bottom: 1px dashed #999; */
+ 
+}
 
 @media (max-width:1130px) {
   .portfolio {
@@ -129,6 +141,8 @@
   .contact {
     text-align: center;
   }
+
+
 
   .profile {
     display: flex;
@@ -146,9 +160,11 @@
   .parallax1 {
     background-image: url("../public/banner1-mobile.jpg");
   }
+
   .parallax2 {
     background-image: url("../public/banner2-mobile.jpg");
   }
+
   .parallax3 {
     background-image: url("../public/banner3-mobile.jpg");
   }

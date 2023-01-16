@@ -18,18 +18,18 @@ export default function Contact() {
           <h2>Get in touch, ask me something, tell me something...</h2>
           <ul className="contact list-unstyled  ">
             <li>
-              <a href="mailto:saharshdc@gmail.com" className="nav-link pl-0">
+              <a href="mailto:saharshdc@gmail.com" className="nav-link contactlink pl-0">
                 <i className="fa fa-envelope"></i> Email
               </a>
             </li>
             <li>
-              <a href="tel:6472261239" className="nav-link pl-0">
+              <a href="tel:6472261239" className="nav-link contactlink pl-0">
                 <i className="fa fa-phone"></i> Phone
               </a>
             </li>
 
             <li>
-              <a href={Resume} className="nav-link pl-0" target="blank">
+              <a href={Resume} className="nav-link contactlink pl-0" target="blank">
                 <i className="fa fa-file"></i> View My CV{" "}
               </a>
             </li>
@@ -37,7 +37,7 @@ export default function Contact() {
               <a
                 href={Resume}
                 download="Saharsh Cherian - Full Stack WebDev"
-                className="nav-link pl-0">
+                className="nav-link contactlink pl-0">
                 <i className="fa fa-solid fa-download"></i> Download My CV{" "}
               </a>
             </li>
