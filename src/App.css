@@ -134,7 +134,7 @@
 @media (max-width:1130px) {
 
   .skillbar{
-    
+    width: 80%;
     display: flexbox;
     flex-wrap: wrap;
 justify-content: center;    
