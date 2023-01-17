@@ -19,7 +19,7 @@ export default function Skills() {
               JavaScript • MySQL • NoSQL • MongoDB • GraphQL • REST API • Express • ReactJS • NodeJS •
               jQuery  • HTML • CSS3 • Handlebars • Bootstrap • Bulma • Semantic UI
             </p> */}
-      <div className="d-flex  m-auto mt-2  skillbar">
+      <div className=" d-flex  m-auto mt-2  skillbar">
       {skillData.map((skill) => (
             <Skill
             name={skill.name}
