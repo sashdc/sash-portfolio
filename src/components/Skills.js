@@ -14,7 +14,7 @@ export default function Skills() {
         <h1 className="title p-3 m-auto">WHAT DO I KNOW? </h1>{" "}
       </div>
       {/* <h1 className="mb-3">WHAT DO I KNOW? </h1> */}
-      <div className="h5">LANGUAGES & LIBRARIES </div>
+      <div className="h3">LANGUAGES & LIBRARIES </div>
       {/* <p>
               JavaScript • MySQL • NoSQL • MongoDB • GraphQL • REST API • Express • ReactJS • NodeJS •
               jQuery  • HTML • CSS3 • Handlebars • Bootstrap • Bulma • Semantic UI
@@ -27,7 +27,7 @@ export default function Skills() {
           />
           ))}
       </div>
-      <div className="h5 mt-2">INDUSTRY PRACTICES AND APPLICATIONS</div>
+      <div className="h3 mt-2">INDUSTRY PRACTICES AND APPLICATIONS</div>
       <p>
         Agile Methodology • TDD • Github • Heroku • Insomnia • MongoDBCompass
       </p>

@@ -132,6 +132,13 @@
 }
 
 @media (max-width:1130px) {
+
+  .skillbar{
+    
+    display: flexbox;
+    flex-wrap: wrap;
+justify-content: center;    
+  }
   .portfolio {
     grid-template-columns: auto auto
   }
