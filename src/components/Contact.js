@@ -18,7 +18,7 @@ export default function Contact() {
           <h2>Get in touch, ask me something, tell me something...</h2>
           <ul className="contact list-unstyled  ">
             <li>
-              <a href="mailto:saharshdc@gmail.com" className="nav-link contactlink pl-0">
+              <a href="mailto:saharshdc@gmail.com" className="nav-link contactlink  pl-0">
                 <i className="fa fa-envelope"></i> Email
               </a>
             </li>

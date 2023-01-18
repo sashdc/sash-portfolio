@@ -28,7 +28,7 @@ export default function Skills() {
           ))}
       </div>
       <div className="h3 mt-2">INDUSTRY PRACTICES AND APPLICATIONS</div>
-      <p>
+      <p className="h5">
         Agile Methodology • TDD • Github • Heroku • Insomnia • MongoDBCompass
       </p>
     </div>

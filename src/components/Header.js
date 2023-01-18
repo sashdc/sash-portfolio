@@ -50,6 +50,9 @@ export default function Header() {
             <li className="contact nav-item">
               <a href="#contact">Contact</a>
             </li>
+            <li className="contact nav-item">
+              <a href="https://www.pixelesquephotography.com/" target="blank">Photography</a>
+            </li>
           </ul>
         </div>
       </nav>
