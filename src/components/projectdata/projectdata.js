@@ -28,6 +28,15 @@ export const projectData = [
     deployment: "https://whispering-inlet-47426.herokuapp.com/",
     skills: "FullStack || NoSQL || GraphQL ",
   },
+  {
+    name: "RMSM Website",
+    description:
+      "A corporate website for an international marine furtniture company. ",
+    img: "./rmsm.jpg",
+    github: "https://github.com/sashdc/richard-marine",
+    deployment: "https://dry-river-92667.herokuapp.com/",
+    skills: "React || Javascript || HTML || CSS",
+  },
 
   {
     name: "The Blogpile",
