@@ -29,7 +29,7 @@ export const projectData = [
     skills: "FullStack || NoSQL || GraphQL ",
   },
   {
-    name: "RMSM Website",
+    name: "Richards Marine Website",
     description:
       "A corporate website for an international marine furtniture company. ",
     img: "./rmsm.jpg",
