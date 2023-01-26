@@ -45,9 +45,9 @@ export const skillData = [
     name: "jQuery",
     img: "./icons/jquery.svg",
   },
-  // {
-  //   name: "Github",
-  //   img: "./sash-portfolio/icons/github.svg",
-  // },
+  {
+    name: "Wordpress",
+    img: "./icons/wordpress.svg",
+  },
 
   ];
