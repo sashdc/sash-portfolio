@@ -6,7 +6,7 @@ import logoblack from "../assets/images/iconwhite.png";
 export default function Header() {
   return (
     <header>
-      <nav className="navbar">
+      <nav className="navbar sticky-top">
         <a className="navbar-brand  m-auto  " href="#portfolio">
           <img
             src={logoblack}
