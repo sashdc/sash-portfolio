@@ -5,6 +5,29 @@
   scroll-behavior: smooth;
 }
 
+/* custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(#250036, #000003);
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(218, 218, 218); 
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5a5a5a; 
+}
+
 .main-content {
   background: linear-gradient(#250036, #000003);
 }
