@@ -53,7 +53,7 @@ export const projectData = [
    {
     name: "by Sarah Raymond",
     description:
-      "A webste for an artist to showcase her work and sell her art. Built on Wordpress (in progress). ",
+      "A website for an artist to showcase her work and sell her art. Built on Wordpress (in progress). ",
     img: "./bsr.jpg",
     // img: "./sash-portfolio/bsr.jpg",
     github: null,
