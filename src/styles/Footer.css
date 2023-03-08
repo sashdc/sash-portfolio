@@ -22,7 +22,7 @@
 -------------------------------------------------- */
 footer {
   /* padding-top: 20px; */
-  background-color: #000000;
+  background: linear-gradient( #000003, #14001d);
   color: #bbb;
   align-items: center;
 }

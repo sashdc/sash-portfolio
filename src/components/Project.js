@@ -12,12 +12,19 @@ export default function Project(props) {
           className="m-1"
           href={props.deployment}
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           <i className="fa fa-2x fa-laptop project-icon" title="Deployment"></i>
         </a>
-        <a className="m-1" href={props.github} target="_blank" rel="noreferrer">
-          <i className="fa fa-2x fa-github project-icon" title="Github Repo" aria-hidden="true"></i>
+        {props.github ?
+                <a className="m-1" href={props.github} target="_blank" rel="noreferrer">
+          <i
+            className="fa fa-2x fa-github project-icon"
+            title="Github Repo"
+            aria-hidden="true"
+          ></i>
         </a>
+        : null}
         <h5 className="overlaytext ">{props.description}</h5>
         <p className="overlaytext">{props.skills}</p>
       </div>

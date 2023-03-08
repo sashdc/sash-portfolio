@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Header.css";
+import "../styles/header.css";
 import "animate.css";
 import logoblack from "../assets/images/iconwhite.png";
 

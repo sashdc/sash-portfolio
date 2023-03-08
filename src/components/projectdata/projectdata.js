@@ -33,7 +33,7 @@ export const projectData = [
   {
     name: "Richards Marine Website",
     description:
-      "A corporate website for an international marine furtniture company. ",
+      "A corporate website for an international marine furtniture company (in progress). ",
     img: "./rmsm.jpg",
     // img: "./sash-portfolio/rmsm.jpg",
     github: "https://github.com/sashdc/richard-marine",
@@ -49,6 +49,16 @@ export const projectData = [
     github: "https://github.com/sashdc/gpt_ux_project",
     deployment: "https://sashdc.github.io/gpt_ux_project/",
     skills: "Javascript || React || HTML || CSS",
+  },
+   {
+    name: "by Sarah Raymond",
+    description:
+      "A webste for an artist to showcase her work and sell her art. Built on Wordpress (in progress). ",
+    img: "./bsr.jpg",
+    // img: "./sash-portfolio/bsr.jpg",
+    github: null,
+    deployment: "https://www.bySarahRaymond.ca/",
+    skills: "WordPress || CSS",
   },
   {
     name: "The Blogpile",
