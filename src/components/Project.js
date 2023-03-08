@@ -16,6 +16,7 @@ export default function Project(props) {
         >
           <i className="fa fa-2x fa-laptop project-icon" title="Deployment"></i>
         </a>
+        {/* only displays github icon if a gthub exists */}
         {props.github ?
                 <a className="m-1" href={props.github} target="_blank" rel="noreferrer">
           <i
