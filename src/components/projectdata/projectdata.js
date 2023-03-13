@@ -57,7 +57,7 @@ export const projectData = [
     img: "./bsr.jpg",
     // img: "./sash-portfolio/bsr.jpg",
     github: null,
-    deployment: "https://www.bySarahRaymond.ca/",
+    deployment: "https://www.bySarahRaymond.ca/home",
     skills: "WordPress || CSS",
   },
   {
