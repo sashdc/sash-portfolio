@@ -7,7 +7,7 @@ const {skillData} = require('./skilldata/skilldata')
 export default function Skills() {
   return (
     <div
-      class="text-center section   m-auto animate__animated animate__fadeIn"
+      class="text-center section m-auto animate__animated animate__fadeIn"
       id="skills">
       <div className="parallax parallax1 animate__animated animate__fadeIn ">
         {" "}
