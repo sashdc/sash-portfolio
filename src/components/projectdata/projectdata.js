@@ -22,12 +22,11 @@ export const projectData = [
   {
     name: "CLiNK",
     description:
-      "A cocktail recipe finder that uses a 3rd party API to randomly generate cocktails and recipes based on user selected ingredients or listed alphabetically.",
+      "A cocktail recipe finder that uses a 3rd party API to  generate beverage recipes based on user selected ingredients or listed alphabetically.",
     img: "./clink.jpg",
-    // img: "./sash-portfolio/javascript.jpg",
     github: "https://github.com/sashdc/clink",
     deployment: "https://clink.herokuapp.com/",
-    skills: "React || 3rd Party API || CSS ",
+    skills: "React || 3rd Party API || JavaScript || CSS  ",
   },
   
   {
