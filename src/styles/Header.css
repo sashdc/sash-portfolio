@@ -15,11 +15,11 @@ nav {
 }
 
 nav .container {
-  /* width: 80%; */
+  width: 80%;
   max-width: 1000px;
   /* margin: 0 auto;  */
-  /* align-items: center; */
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
   text-align: center;
   /* padding: 10px; */
   /* margin-right: 5px; */
