@@ -1,7 +1,8 @@
 .container {
   display: flex;
-    position: relative;
-    /* width: 50%; */
+  flex-wrap: wrap;
+  position: relative;
+  width: 30%;
   }
 
 
@@ -47,7 +48,7 @@
   }
 
   .overlaytext{
-    font-size: 100%;
+    font-size: 1vw;
   }
   
   .fa-laptop:hover  {
@@ -60,7 +61,7 @@
 
   .overlay {
     position: absolute;
-    top: 0;
+    top: 1;
     bottom: 0;
     left: 0;
     right: 0;
@@ -78,5 +79,12 @@
         /* height: auto; */
         /* margin: 2%; */
       }
+
+      .container {
+        width: 70%;
+        }
+        .overlaytext{
+          font-size: 2rem;
+        }
 
     }

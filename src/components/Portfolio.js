@@ -1,7 +1,8 @@
 import React from "react";
 import "animate.css";
+import "../styles/portfolio.css";
 import Project from "./Project";
-const {projectData} = require('./projectdata/projectdata')
+const {projectData} = require('./projectdata/projectdata');
 
 export default function Portfolio() {
   return (
