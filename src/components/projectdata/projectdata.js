@@ -30,7 +30,15 @@ export const projectData = [
     deployment: "https://clink.herokuapp.com/",
     skills: "React ||  JavaScript || CSS  ",
   },
-  
+  {
+    name: "Sashbook",
+    description:
+      "A full stack social media app with auth, light/dark mode, and post interactions.",
+    img: "./sashbook.jpg",
+    // img: "./sash-portfolio/clink.jpg",
+    github: "https://github.com/sashdc/sashbook",
+    skills: "MERN ||  Redux || Formic || Yup || Material UI  ",
+  },
   {
     name: "Java Script",
     description:

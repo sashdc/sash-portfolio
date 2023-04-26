@@ -8,6 +8,8 @@ export default function Project(props) {
       <img src={props.img} alt={props.name} className="image my-4" />
       <div className="middle">
         <h3 className="overlaytext text-uppercase">{props.name}</h3>
+        {/* only displays deployment icon if a deployment exists */}
+        {props.deployment ?
         <a
           className="m-1"
           href={props.deployment}
@@ -16,6 +18,7 @@ export default function Project(props) {
         >
           <i className="fa fa-2x fa-laptop project-icon" title="Deployment"></i>
         </a>
+        : null}
         {/* only displays github icon if a github exists */}
         {props.github ?
                 <a className="m-1" href={props.github} target="_blank" rel="noreferrer">
