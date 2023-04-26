@@ -77,6 +77,7 @@ nav .container ul li.active a {
     padding: 10px;
   border-radius: 0px 10px 10px 0px;
   box-shadow: 2px 2px 2px 2px black;
+  
 }
 
 .sticky a{
@@ -102,10 +103,13 @@ transition: .5s ease;
   font-size: 1.1rem;
   margin-left: 10px;
   justify-items: center;
+  transition: 2s ease;
+
 }
 
 .sticky:hover .sticky-info{
 display: block;
+transition: 2s ease;
 
 }
 

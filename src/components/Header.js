@@ -34,6 +34,10 @@ export default function Header() {
               <a href="#contact"><i className="fa fa-solid fa-envelope" title="Contact Me"></i>
               <p className="sticky-info">Contact</p></a>
               </div>
+              <div className="d-flex">
+              <a href="https://www.pixelesquephotography.com/"  target="blank"><i className="fa fa-solid fa-camera" title="Pixelesque Photography"></i>
+              <p className="sticky-info">Photography</p></a>
+              </div>
 </div>
 
         <div className="container navlinks justify-content-around ">
