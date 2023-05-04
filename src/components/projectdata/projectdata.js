@@ -52,11 +52,21 @@ export const projectData = [
   {
     name: "Richards Marine Website",
     description:
-      "A corporate website for an international marine furtniture company (in progress). ",
+      "A standard corporate website for an international marine furniture company (in progress). ",
     img: "./rmsm.jpg",
     // img: "./sash-portfolio/rmsm.jpg",
     github: "https://github.com/sashdc/richard-marine",
     deployment: "https://dry-river-92667.herokuapp.com/",
+    skills: "React || Javascript || HTML || CSS",
+  },
+  {
+    name: "Richards Marine Website 2",
+    description:
+      "A conceptual corporate website for an international marine furniture company (in progress), made to look like a desktop as per client's request. ",
+    img: "./rmsm2.jpg",
+    // img: "./sash-portfolio/rmsm.jpg",
+    github: "https://github.com/sashdc/rmsm2",
+    deployment: "https://rmsm.herokuapp.com/",
     skills: "React || Javascript || HTML || CSS",
   },
   // {
