@@ -87,7 +87,17 @@ export const projectData = [
     // img: "./sash-portfolio/bsr.jpg",
     github: null,
     deployment: "https://www.bySarahRaymond.ca/",
-    skills: "WordPress || CSS",
+    skills: "WordPress || CSS || Elementor",
+  },
+  {
+    name: "The Harlequin Singers",
+    description:
+      "A website for an Ontario based choir to market their choir as an organization as well as upcoming shows, including ticketing selling functionality. ",
+    img: "./harlequin.jpg",
+    // img: "./sash-portfolio/bsr.jpg",
+    github: null,
+    deployment: "https://www.harlequinsingers.com/home/",
+    skills: "WordPress || CSS || Elementor",
   },
   {
     name: "The Blogpile",
