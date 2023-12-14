@@ -117,7 +117,10 @@
   transition: .5s ease;
 }
 
-
+.overlaytext {
+ font-size: 1em; 
+  
+}
 
 .contact {
   text-align: right;
@@ -155,6 +158,15 @@
  /* border-bottom: 1px dashed #999; */
  
 }
+/* 
+.portfolio {
+  display: flex;
+  font-size: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
 
 @media (max-width:1130px) {
 
