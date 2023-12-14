@@ -188,7 +188,9 @@ justify-content: center;
     text-align: center;
   }
 
-
+.middle{
+  width: 100%;
+}
 
   .profile {
     display: flex;
