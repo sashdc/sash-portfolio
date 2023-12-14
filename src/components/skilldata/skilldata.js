@@ -1,53 +1,53 @@
 export const skillData = [
   {
     name: "HTML",
-    img: "./icons/html.svg",
+    img: process.env.PUBLIC_URL +  "/icons/html.svg",
   },
   {
     name: "CSS",
-    img: "./icons/css.svg",
+    img: process.env.PUBLIC_URL + "/icons/css.svg",
   },
   {
     name: "JavaScript",
-    img: "./icons/javascript.svg",
+    img:process.env.PUBLIC_URL +  "/icons/javascript.svg",
   },
 
   {
     name: "React",
-    img: "./icons/react.svg",
+    img: process.env.PUBLIC_URL + "/icons/react.svg",
   },
   {
     name: "Node",
-    img: "./icons/node.svg",
+    img: process.env.PUBLIC_URL + "/icons/node.svg",
   },
   {
     name: "Express",
-    img: "./icons/express.svg",
+    img:process.env.PUBLIC_URL +  "/icons/express.svg",
   },
   {
     name: "MongoDB",
-    img: "./icons/mongodb.svg",
+    img: process.env.PUBLIC_URL + "/icons/mongodb.svg",
   },
   {
     name: "MySQL",
-    img: "./icons/mysql.svg",
+    img: process.env.PUBLIC_URL + "/icons/mysql.svg",
   },
 
   {
     name: "GraphQL",
-    img: "./icons/graphql.svg",
+    img: process.env.PUBLIC_URL + "/icons/graphql.svg",
   },
   {
     name: "Handlebars",
-    img: "./icons/handlebars.svg",
+    img: process.env.PUBLIC_URL + "/icons/handlebars.svg",
   },
   {
     name: "jQuery",
-    img: "./icons/jquery.svg",
+    img: process.env.PUBLIC_URL + "/icons/jquery.svg",
   },
   {
     name: "Wordpress",
-    img: "./icons/wordpress.svg",
+    img: process.env.PUBLIC_URL + "/icons/wordpress.svg",
   },
 
   ];
