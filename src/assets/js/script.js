@@ -1,17 +1,31 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+// Function to check if the element is in the viewport with an offset
+function isInViewport(element, offset) {
+  if (!element) {
+    return false;
+  }
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
+  var rect = element.getBoundingClientRect();
+  return (
+    rect.top >= -offset &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
+// Function to handle scroll events
+function handleScroll() {
+  var hiddenSegment = document.getElementById('portfolio');
+  
+  // Check if the hidden segment is in the viewport with a 100px offset from the top
+  if (isInViewport(hiddenSegment, 800)) {
+    hiddenSegment.style.display = "block"; // Show the segment
+    window.removeEventListener('scroll', handleScroll); // Remove the scroll event listener
   }
 }
+
+// Attach the scroll event listener
+window.addEventListener('scroll', handleScroll);
+
+// Initial check in case the element is already in the viewport on page load
+handleScroll();
