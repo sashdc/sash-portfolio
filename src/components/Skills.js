@@ -8,7 +8,8 @@ export default function Skills() {
 
   const [hovered, setHovered] = useState(false);
   const [hoverIndex, setHoverIndex] = useState(0);
-  const fonts = ['Rubik Broken Fax', 'Rubik Bubbles', 'Rubik Doodle Triangles']; // Add more fonts as needed
+  const fonts = ['Rubik Broken Fax', 'Rubik Bubbles', 'Rubik Doodle Triangles', 'Rubik Iso','Rubik Maps', 'Rubik Moonrocks','Rubik Pixels','Rubik Wet Paint','Rubik Doodle Shadow','Rubik Beastly' ]; 
+  // Add more fonts as needed
 
   useEffect(() => {
     let intervalId;
@@ -16,7 +17,8 @@ export default function Skills() {
     const startCycling = () => {
       intervalId = setInterval(() => {
         setHoverIndex((prevIndex) => (prevIndex + 1) % fonts.length);
-      }, 180); // Adjust the interval (in milliseconds) based on your preference
+      }, 180); 
+      // Adjust the interval (in milliseconds) based on your preference
     };
 
     const stopCycling = () => {
@@ -36,6 +38,8 @@ export default function Skills() {
   const handleMouseEnter = () => {
     // Start the cycling when the mouse enters the element
     setHovered(true);
+    console.log("fonts length is" + fonts.length)
+
   };
 
   const handleMouseLeave = () => {
