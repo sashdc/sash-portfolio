@@ -1,3 +1,5 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&family=Rubik+Bubbles&family=Rubik+Doodle+Triangles&display=swap');
+
 * {
   color: aliceblue;
   /* font-size: 1.1rem; */
@@ -46,6 +48,24 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.title.hover-3 {
+  font-family: 'Rubik Broken Fax', sans-serif;
+  
+  /* transition: font 0.5s ease-in-out; */
+}
+
+/* Fonts on hover (cycle through) */
+.title.hover-1 {
+  font-family: 'Rubik Bubbles', sans-serif;
+}
+
+.title.hover-2 {
+  font-family: 'Rubik Doodle Triangles', sans-serif;
+}
+
+/* Add more hover styles for additional fonts */
+
 
 #about{
   font-size: 1.2rem;

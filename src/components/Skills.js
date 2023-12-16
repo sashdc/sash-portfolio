@@ -1,17 +1,57 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import "animate.css";
 import Skill from "./Skill";
 const {skillData} = require('./skilldata/skilldata')
 
 
 export default function Skills() {
+
+  const [hovered, setHovered] = useState(false);
+  const [hoverIndex, setHoverIndex] = useState(0);
+  const fonts = ['Rubik Broken Fax', 'Rubik Bubbles', 'Rubik Doodle Triangles']; // Add more fonts as needed
+
+  useEffect(() => {
+    let intervalId;
+
+    const startCycling = () => {
+      intervalId = setInterval(() => {
+        setHoverIndex((prevIndex) => (prevIndex + 1) % fonts.length);
+      }, 180); // Adjust the interval (in milliseconds) based on your preference
+    };
+
+    const stopCycling = () => {
+      clearInterval(intervalId);
+    };
+
+    if (hovered) {
+      startCycling();
+    } else {
+      setHoverIndex(0); // Reset to the default font when not hovering
+      stopCycling();
+    }
+
+    return () => stopCycling(); // Cleanup the interval on component unmount
+  }, [hovered, fonts]);
+
+  const handleMouseEnter = () => {
+    // Start the cycling when the mouse enters the element
+    setHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    // Stop the cycling when the mouse leaves the element
+    setHovered(false);
+  };
+
+  const fontClass = ` ${hovered ? `hover-${hoverIndex}` : ''}`;
+
   return (
     <div
       class="text-center section m-auto animate__animated animate__fadeIn"
       id="skills">
       <div className="parallax parallax1 animate__animated animate__fadeIn ">
         {" "}
-        <h1 className="title p-3 m-auto">WHAT DO I KNOW? </h1>{" "}
+        <h1 className={`title p-3 m-auto ${fontClass}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>WHAT DO I KNOW? </h1>{" "}
       </div>
       {/* <h1 className="mb-3">WHAT DO I KNOW? </h1> */}
       <div className="h3">LANGUAGES & LIBRARIES </div>
