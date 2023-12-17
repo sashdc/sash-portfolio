@@ -3,13 +3,23 @@ import headshotpx from "../assets/images/headshot.jpg";
 import headshot from "../assets/images/headshotpx.jpg";
 import "animate.css";
 import Resume from "../assets/files/Saharsh-Cherian-CV.pdf";
+import useFontCycler from './useFontCycler';
+
 
 export default function Contact() {
+  const defaultFont = 'Rubik Broken Fax';
+  const fonts = ['Rubik Broken Fax', 'Rubik Bubbles', 'Rubik Doodle Triangles', 'Rubik Iso','Rubik Maps', 'Rubik Moonrocks','Rubik Pixels','Rubik Wet Paint','Rubik Doodle Shadow','Rubik Beastly' ]; 
+
+  const { fontClass, handleMouseEnter, handleMouseLeave } = useFontCycler(
+    defaultFont,
+    fonts
+  );
+
   return (
     <div className=" section text-right">
       <div className="parallax3 parallax animate__animated animate__fadeIn ">
         {" "}
-        <h1 className="title p-3 ">CONTACT ME </h1>{" "}
+        <h1 className={`title ${fontClass} p-3`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>CONTACT ME </h1>{" "}
       </div>
       <div
         className="d-flex profile contact  w-50 m-auto animate__animated animate__fadeInUp "

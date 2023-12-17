@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Rubik+Broken+Fax&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&family=Rubik+Iso&family=Rubik+Maps&family=Rubik+Moonrocks&family=Rubik+Pixels&family=Rubik+Wet+Paint&display=swap');
+
 * {
   color: aliceblue;
   /* font-size: 1.1rem; */
@@ -46,6 +48,46 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.title.hover-3 {
+  font-family: 'Rubik Broken Fax', sans-serif;
+  }
+
+/* Fonts on hover (cycle through) */
+.title.hover-1 {
+  font-family: 'Rubik Bubbles', sans-serif;
+  /* letter-spacing: 1em; */
+}
+
+.title.hover-2 {
+  font-family: 'Rubik Doodle Triangles', sans-serif;
+}
+
+.title.hover-4 {
+  font-family: 'Rubik Iso', sans-serif;
+}
+.title.hover-5 {
+  font-family: 'Rubik Maps', sans-serif;
+} 
+.title.hover-6 {
+  font-family: 'Rubik Moonrocks', sans-serif;
+} 
+.title.hover-7 {
+  font-family: 'Rubik Pixels', sans-serif;
+}
+.title.hover-8 {
+  font-family: 'Rubik Wet Paint', sans-serif;
+}
+.title.hover-9 {
+  font-family: 'Rubik Doodle Shadow', sans-serif;
+}
+.title.hover-10 {
+  font-family: 'Rubik Beastly', sans-serif;
+}
+
+
+/* Add more hover styles for additional fonts */
+
 
 #about{
   font-size: 1.2rem;
