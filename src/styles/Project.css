@@ -3,98 +3,105 @@
   flex-wrap: wrap;
   position: relative;
   width: 30%;
+}
+
+.image {
+  position: relative;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 1s ease;
+  backface-visibility: hidden;
+  border-radius: 90px;
+  box-shadow: 2px 2px 1px 0px rgb(32, 23, 36);
+}
+
+.middle {
+  transition: 0.25s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /* text-align: center; */
+}
+
+.container:hover .image {
+  opacity: 0.1;
+  transition: 0.5s ease;
+  /* height: 70%; */
+  transform: scale(0.95);
+
+  /* align-items: center; */
+  box-shadow: 1px 1px 10px 10px rgb(224, 158, 255);
+}
+
+.container:hover .middle {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.overlaytext {
+  font-size: 1vw;
+}
+
+/* .overlaytext {
+    font-size: 1.1em;
   }
+  */
 
+h3.overlaytext {
+  font-size: 1.5vw;
+  margin-bottom: 0;
+  /* give glowing effect */
+  text-shadow: 0 0 25px #fff;
+  font-weight:bold;
+}
 
-  .image {
-    position: relative;
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: 1s ease;
-    backface-visibility: hidden;
-    border-radius: 90px;
-    box-shadow: 2px 2px 1px 0px rgb(32, 23, 36);
+p.overlaytext {
+  margin-bottom: 0;
+}
 
-  }
-  
-  .middle {
-    transition: .25s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    /* text-align: center; */
-  }
-  
+.fa-laptop:hover {
+  color: #76f571;
+}
 
-  .container:hover .image {
-    opacity: 0.1;
-    transition: .5s ease;
-    /* height: 70%; */
-    transform: scale(.95);
+.fa-github:hover {
+  color: #ff9c4a;
+}
 
-    /* align-items: center; */
-    box-shadow: 1px 1px 10px 10px rgb(224, 158, 255);
-  }
-  
-  .container:hover .middle {
-    opacity: 1;
-    transition: .5s ease;
-
-  }
-
-  /* .overlaytext{
-    font-size: 1vw;
-  } */
-  
-  .fa-laptop:hover  {
-    color: #76f571;
-  }
-
-  .fa-github:hover  {
-    color: #ff9c4a;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 1;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* height: 100%;
+.overlay {
+  position: absolute;
+  top: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* height: 100%;
     width: 100%; */
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #081D5B;
-    border-radius: 10%;}
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #081d5b;
+  border-radius: 10%;
+}
 
+@media (max-width: 1000px) {
+  .image {
+    border-radius: 50px;
+    /* height: auto; */
+    /* margin: 2%; */
+  }
 
-    @media (max-width:1000px) {
+  .container {
+    width: 80%;
+  }
 
-  
-      .image{
-        border-radius: 50px;
-        /* height: auto; */
-        /* margin: 2%; */
-      }
+  .overlaytext {
+    font-size: 1.2em;
+  }
 
-      .container {
-        width: 80%;
-        }
-     
-        .overlaytext {
-          font-size: 1em;
-        }
-      
-        h3.overlaytext {
-          font-size: 1.5em;
-        }
-      
-        p.overlaytext {
-          margin-bottom: 0;
-        }
-    }
+  h3.overlaytext {
+    font-size: 1.6em;
+  }
+}
