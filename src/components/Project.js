@@ -16,7 +16,7 @@ export default function Project(props) {
           target="_blank"
           rel="noreferrer"
         >
-          <i className="fa fa-2x fa-laptop project-icon" title="Deployment"></i>
+          <i className="fa fa-2x fa-laptop project-icon" data-toggle="tooltip" data-placement="left" title="Deployment"></i>
         </a>
         : null}
         {/* only displays github icon if a github exists */}
@@ -24,6 +24,7 @@ export default function Project(props) {
                 <a className="m-1" href={props.github} target="_blank" rel="noreferrer">
           <i
             className="fa fa-2x fa-github project-icon"
+            data-toggle="tooltip" data-placement="right" 
             title="Github Repo"
             aria-hidden="true"
           ></i>
