@@ -56,6 +56,7 @@
 /* Fonts on hover (cycle through) */
 .title.hover-1 {
   font-family: 'Rubik Bubbles', sans-serif;
+  /* letter-spacing: 1em; */
 }
 
 .title.hover-2 {

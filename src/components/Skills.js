@@ -1,53 +1,21 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import "animate.css";
 import Skill from "./Skill";
+import useFontCycler from './useFontCycler';
+
 const {skillData} = require('./skilldata/skilldata')
 
 
 export default function Skills() {
 
-  const [hovered, setHovered] = useState(false);
-  const [hoverIndex, setHoverIndex] = useState(0);
+  // use this to have the fonts cycle on hover
+  const defaultFont = 'Rubik Broken Fax';
   const fonts = ['Rubik Broken Fax', 'Rubik Bubbles', 'Rubik Doodle Triangles', 'Rubik Iso','Rubik Maps', 'Rubik Moonrocks','Rubik Pixels','Rubik Wet Paint','Rubik Doodle Shadow','Rubik Beastly' ]; 
-  // Add more fonts as needed
 
-  useEffect(() => {
-    let intervalId;
-
-    const startCycling = () => {
-      intervalId = setInterval(() => {
-        setHoverIndex((prevIndex) => (prevIndex + 1) % fonts.length);
-      }, 180); 
-      // Adjust the interval (in milliseconds) based on your preference
-    };
-
-    const stopCycling = () => {
-      clearInterval(intervalId);
-    };
-
-    if (hovered) {
-      startCycling();
-    } else {
-      setHoverIndex(0); // Reset to the default font when not hovering
-      stopCycling();
-    }
-
-    return () => stopCycling(); // Cleanup the interval on component unmount
-  }, [hovered, fonts]);
-
-  const handleMouseEnter = () => {
-    // Start the cycling when the mouse enters the element
-    setHovered(true);
-    console.log("fonts length is" + fonts.length)
-
-  };
-
-  const handleMouseLeave = () => {
-    // Stop the cycling when the mouse leaves the element
-    setHovered(false);
-  };
-
-  const fontClass = ` ${hovered ? `hover-${hoverIndex}` : ''}`;
+  const { fontClass, handleMouseEnter, handleMouseLeave } = useFontCycler(
+    defaultFont,
+    fonts
+  );
 
   return (
     <div

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const useFontCycler = (defaultFont, fonts, intervalDuration = 1000) => {
+const useFontCycler = (defaultFont, fonts, intervalDuration = 120) => {
   const [hovered, setHovered] = useState(false);
   const [hoverIndex, setHoverIndex] = useState(0);
 
