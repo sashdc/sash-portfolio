@@ -54,10 +54,29 @@
 
 h3.overlaytext {
   font-size: 1.5vw;
+  /* mkae text transparrent */
+  color: transparent;
+  -webkit-text-stroke: .5px #ffeded;
   margin-bottom: 0;
   /* give glowing effect */
-  text-shadow: 0 0 25px #fff;
-  font-weight:bold;
+    /* add flickerin animation */
+  animation: flicker 3s infinite ;
+}
+
+@keyframes flicker {
+  0% {
+    color: #fff;
+    text-shadow: 0 0 20px #fff;
+  }
+  50%{
+    color: transparent;
+    text-shadow: 0 0 2px #fff;
+  }
+  100% {
+    color: #fff;
+    text-shadow: 0 0 20px #fff;
+
+  }
 }
 
 p.overlaytext {
@@ -98,10 +117,10 @@ p.overlaytext {
   }
 
   .overlaytext {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
 
   h3.overlaytext {
-    font-size: 1.6em;
+    font-size: 3em;
   }
 }
