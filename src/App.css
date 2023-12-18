@@ -5,7 +5,15 @@
   /* font-size: 1.1rem; */
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Text me one";
 }
+
+/* change color for selected text on whole site */
+::selection {
+  background: #590082e6;
+  color: #dddddd;
+}
+
 
 /* custom scrollbar */
 /* width */
