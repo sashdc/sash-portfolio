@@ -27,7 +27,7 @@ export const projectData = [
     img: process.env.PUBLIC_URL + "/clink.jpg",
     // img: "./sash-portfolio/clink.jpg",
     github: "https://github.com/sashdc/clink",
-    deployment: "https://clink.herokuapp.com/",
+    deployment: "https://clinkyourdrink.netlify.app/",
     skills: "React ||  JavaScript || CSS  ",
   },
   {
