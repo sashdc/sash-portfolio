@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Rubik+Broken+Fax&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&family=Rubik+Iso&family=Rubik+Maps&family=Rubik+Moonrocks&family=Rubik+Pixels&family=Rubik+Wet+Paint&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Rubik+Broken+Fax&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&family=Rubik+Iso&family=Rubik+Maps&family=Rubik+Moonrocks&family=Rubik+Pixels&family=Rubik+Wet+Paint&display=swap");
 
 * {
   color: aliceblue;
-  /* font-size: 1.1rem; */
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Text me one";
+  font-family: "Text me one", sans-serif;
 }
 
 /* change color for selected text on whole site */
@@ -13,7 +12,6 @@
   background: #590082e6;
   color: #dddddd;
 }
-
 
 /* custom scrollbar */
 /* width */
@@ -26,16 +24,16 @@
   background: linear-gradient(#250036, #000003);
   border-radius: 0px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(218, 218, 218); 
+  background: rgb(218, 218, 218);
   border-radius: 20px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #5a5a5a; 
+  background: #5a5a5a;
 }
 
 .main-content {
@@ -58,46 +56,43 @@
 }
 
 .title.hover-3 {
-  font-family: 'Rubik Broken Fax', sans-serif;
-  }
+  font-family: "Rubik Broken Fax", sans-serif;
+}
 
 /* Fonts on hover (cycle through) */
 .title.hover-1 {
-  font-family: 'Rubik Bubbles', sans-serif;
-  /* letter-spacing: 1em; */
+  font-family: "Rubik Bubbles", sans-serif;
 }
 
 .title.hover-2 {
-  font-family: 'Rubik Doodle Triangles', sans-serif;
+  font-family: "Rubik Doodle Triangles", sans-serif;
 }
 
 .title.hover-4 {
-  font-family: 'Rubik Iso', sans-serif;
+  font-family: "Rubik Iso", sans-serif;
 }
 .title.hover-5 {
-  font-family: 'Rubik Maps', sans-serif;
-} 
+  font-family: "Rubik Maps", sans-serif;
+}
 .title.hover-6 {
-  font-family: 'Rubik Moonrocks', sans-serif;
-} 
+  font-family: "Rubik Moonrocks", sans-serif;
+}
 .title.hover-7 {
-  font-family: 'Rubik Pixels', sans-serif;
+  font-family: "Rubik Pixels", sans-serif;
 }
 .title.hover-8 {
-  font-family: 'Rubik Wet Paint', sans-serif;
+  font-family: "Rubik Wet Paint", sans-serif;
 }
 .title.hover-9 {
-  font-family: 'Rubik Doodle Shadow', sans-serif;
+  font-family: "Rubik Doodle Shadow", sans-serif;
 }
 .title.hover-10 {
-  font-family: 'Rubik Beastly', sans-serif;
+  font-family: "Rubik Beastly", sans-serif;
 }
-
 
 /* Add more hover styles for additional fonts */
 
-
-#about{
+#about {
   font-size: 1.2rem;
 }
 
@@ -129,42 +124,33 @@
   align-self: center;
   position: relative;
   text-align: center;
-
 }
-
-
 
 .icon {
   filter: grayscale(100%);
-  transition: .5s ease;
-
+  transition: 0.5s ease;
 }
 
 .icon:hover {
   filter: grayscale(0%);
-  transition: .5s ease;
-
+  transition: 0.5s ease;
 }
-
 
 .skillname {
   opacity: 0.05;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
-.icon:hover +.skillname {
+.icon:hover + .skillname {
   opacity: 1;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-
 
 .skillname:hover {
   opacity: 1;
-  transition: .5s ease;
-  cursor:default;
+  transition: 0.5s ease;
+  cursor: default;
 }
-
-
 
 .contact {
   text-align: right;
@@ -180,7 +166,7 @@
   position: relative;
   z-index: 20;
   opacity: 1;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .headshotpx {
@@ -192,28 +178,22 @@
 
 .headshot:hover {
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .contactlink:hover,
-.contactlink:focus{
- color: #aaa;
- text-decoration: none;
- 
+.contactlink:focus {
+  color: #aaa;
+  text-decoration: none;
 }
 
-
-@media (max-width:1130px) {
-
- 
-
-  .skillbar{
+@media (max-width: 1130px) {
+  .skillbar {
     width: 80%;
     display: flexbox;
     flex-wrap: wrap;
-justify-content: center;    
+    justify-content: center;
   }
-
 
   .headshot .headshotpx {
     height: 300px;
@@ -224,7 +204,6 @@ justify-content: center;
   .contact {
     text-align: center;
   }
-
 
   .profile {
     display: flex;
@@ -250,6 +229,4 @@ justify-content: center;
   .parallax3 {
     background-image: url("../public/banner3-mobile.jpg");
   }
-
 }
-

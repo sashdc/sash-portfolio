@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/header.css";
 import "animate.css";
-import logoblack from "../assets/images/iconwhite.png";
+import logoblack from "../assets/images/pix-logo.png";
 
 export default function Header() {
   return (
@@ -28,7 +28,7 @@ export default function Header() {
             {" "}
             <a href="#skills">
               <i
-                class="fa fa-solid fa-list"
+                className="fa fa-solid fa-list"
                 title="Skills and Things I Know"
               ></i>
               <p className="sticky-info">Skills</p>

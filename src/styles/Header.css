@@ -7,19 +7,17 @@ nav {
   background-color: #250036;
   font-size: 25px;
   color: white;
-  font-family: Oldenburg;
+  font-family: Oldenburg, sans-serif;
   overflow: hidden;
 }
 
 nav .container {
   width: 80%;
   max-width: 1000px;
-  /* margin: 0 auto;  */
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* padding: 10px; */
-  /* margin-right: 5px; */
+
 }
 
 ul {

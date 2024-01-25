@@ -25,16 +25,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  /* text-align: center; */
 }
 
 .container:hover .image {
   opacity: 0.1;
   transition: 0.5s ease;
-  /* height: 70%; */
   transform: scale(0.95);
-
-  /* align-items: center; */
   box-shadow: 1px 1px 10px 10px rgb(224, 158, 255);
 }
 
@@ -46,11 +42,6 @@
 .overlaytext {
   font-size: 1vw;
 }
-
-/* .overlaytext {
-    font-size: 1.1em;
-  }
-  */
 
 h3.overlaytext {
   font-size: 1.5vw;
@@ -97,8 +88,6 @@ p.overlaytext {
   bottom: 0;
   left: 0;
   right: 0;
-  /* height: 100%;
-    width: 100%; */
   opacity: 0;
   transition: 0.5s ease;
   background-color: #081d5b;
@@ -108,8 +97,7 @@ p.overlaytext {
 @media (max-width: 1000px) {
   .image {
     border-radius: 50px;
-    /* height: auto; */
-    /* margin: 2%; */
+
   }
 
   .container {
